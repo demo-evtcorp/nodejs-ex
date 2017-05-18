@@ -15,6 +15,7 @@ var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
 app.use(express.static('public'));
 
 app.listen(port, ip);
-console.log('Server running on http://%s:%s', ip, port);
+//console.log('Server running on http://%s:%s', ip, port);
+console.log('Server running...');
 
 module.exports = app ;
