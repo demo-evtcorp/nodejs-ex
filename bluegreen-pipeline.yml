@@ -381,7 +381,7 @@ parameters:
   displayName: Git Repository URL
   name: SOURCE_REPOSITORY_URL
   required: true
-  value: https://github.com/kenthua/nodejs-ex.git
+  value: https://github.com/demo-evtcorp/nodejs-ex.git
 - description: The reference of the repository with your application source code.
   displayName: Git Repository Ref
   name: SOURCE_REPOSITORY_REF
